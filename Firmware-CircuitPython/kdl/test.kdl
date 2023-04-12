@@ -1,0 +1,22 @@
+State 0
+key 0,0: color 255 255 255, on never, press a
+key 0,1: color 255 255 255, on always, press b
+key 0,2: color 255 255 255, on always, press c
+key 1,0: color 255 255 255, on always, press d
+key 1,1: color 255 255 255, on always, press e
+key 1,2: color 255 255 255, on always, press f
+key 2,0: color 255 255 255, on always, press g
+key 2,1: color 255 255 255, on always, press h
+key 2,2: color 255 255 255, on always, setstate 1
+
+State 1
+key 0,0: color 255 0 0, on pressed, press A
+key 0,1: color 255 0 0, on pressed, press B
+key 0,2: color 255 0 0, on pressed, press C
+key 1,0: color 255 0 0, on pressed, press D
+key 1,1: color 255 0 0, on pressed, press E
+key 1,2: color 255 0 0, on pressed, press F
+key 2,0: color 255 0 0, on pressed, press G
+key 2,1: color 255 0 0, on pressed, press H
+key 2,2: color 255 0 0, on pressed, setstate 0
+
